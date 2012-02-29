@@ -2,7 +2,7 @@
 # -*- makefile -*-
 
 export DH_VERBOSE=1
-export DH_RUBY_IGNORE_TESTS=ruby1.8
+export DH_RUBY_IGNORE_TESTS=ruby1.8 require-rubygems
 export DH_RUBY_GEMSPEC=bundler.gemspec
 
 %:
