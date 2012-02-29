@@ -1,3 +1,9 @@
+ruby-bundler (1.0.22-1~oneiric1) oneiric; urgency=low
+
+  * New upstream version import
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Wed, 29 Feb 2012 19:16:31 +0100
+
 ruby-bundler (0-0~oneiric1) oneiric; urgency=low
 
   * Initial release
