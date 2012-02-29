@@ -1,0 +1,16 @@
+Source: ruby-bundler
+Section: ruby
+Priority: extra
+Maintainer: Marcin Antczak <marcin.antczak@neutrico.pl>
+Build-Depends: debhelper (>= 8.0.0), gem2deb (>= 0.2.6~)
+Standards-Version: 3.9.2
+Homepage: http://gembundler.com/
+Vcs-Git: git://github.com/marcinant/deb-ruby-bundler.git
+Vcs-Browser: https://github.com/marcinant/deb-ruby-bundler
+
+Package: ruby-bundler
+Architecture: all
+Depends: ${misc:Depends}
+Description: The best way to manage your application dependencies.
+ Bundler manages an application dependencies through its entire 
+ life, across many machines, systematically and repeatably
