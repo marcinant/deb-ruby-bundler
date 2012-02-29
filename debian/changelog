@@ -1,5 +1,5 @@
-ruby-bundler (0-1) unstable; urgency=low
+ruby-bundler (0-0~precise1) precise; urgency=low
 
   * Initial release
 
- -- Marcin Antczak <marcin.antczak@neutrico.pl>  Wed, 29 Feb 2012 19:10:12 +0100
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Wed, 29 Feb 2012 19:10:13 +0100
