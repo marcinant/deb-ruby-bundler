@@ -1,3 +1,9 @@
+ruby-bundler (1.0.22-1~unstable2) unstable; urgency=low
+
+  * New build
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Wed, 29 Feb 2012 19:27:27 +0100
+
 ruby-bundler (1.0.22-1~unstable1) unstable; urgency=low
 
   * New upstream version import
