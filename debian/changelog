@@ -1,3 +1,9 @@
+ruby-bundler (1.0.22-1~oneiric3) oneiric; urgency=low
+
+  * New build
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Wed, 29 Feb 2012 19:29:16 +0100
+
 ruby-bundler (1.0.22-1~oneiric2) oneiric; urgency=low
 
   * New build
