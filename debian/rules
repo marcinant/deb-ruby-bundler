@@ -1,7 +1,9 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-#export DH_VERBOSE=1
+export DH_VERBOSE=1
+export DH_RUBY_IGNORE_TESTS=ruby1.8
+export DH_RUBY_GEMSPEC=bundler.gemspec
 
 %:
-	dh $@ 
+	dh $@ --buildsystem=ruby --with ruby

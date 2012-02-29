@@ -3,8 +3,8 @@ Upstream-Name: ruby-bundler
 Source: git@github.com:carlhuda/bundler.git
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
+Copyright: 2010 Andre Arko
+           2009 Engine Yard
 License: MIT
 
 Files: debian/*
