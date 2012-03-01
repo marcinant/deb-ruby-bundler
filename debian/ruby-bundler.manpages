@@ -1,0 +1,7 @@
+man/bundle-config
+man/bundle-exec
+man/bundle-install
+man/bundle-package
+man/bundle-update
+man/bundle
+man/gemfile.5
