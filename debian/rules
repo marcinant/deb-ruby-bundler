@@ -7,3 +7,15 @@ export DH_RUBY_GEMSPEC=bundler.gemspec
 
 %:
 	dh $@ --buildsystem=ruby --with ruby
+
+override_dh_installman:
+	for x in man/*.ronn; do \
+		ronn -roff --pipe $$x > man/`basename $$x .ronn`; \
+	done
+	dh_installman
+
+override_dh_clean:
+	for x in man/*.ronn; do \
+		rm -rf man/`basename $$x .ronn`; \
+	done
+	dh_clean
